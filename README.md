@@ -18,8 +18,6 @@ This project explores 1,000 synthetic Duka Electronics orders from January throu
 
 From this directory, install dependencies with `python -m pip install -r requirements.txt`, regenerate the source data with `python generate_data.py`, then open `duka_sales_exploration.ipynb` and run all cells from top to bottom. The CSV has 1,000 order-level records dated in the first half of 2026. `outputs/premium_online_coast_capital.csv` and `excel/duka_branch_summary.xlsx` are produced by the analysis notebook. Creating and recalculating the native Excel PivotTable requires Windows with desktop Excel installed.
 
-> **Generator provenance:** The original Practical generator was not included in the supplied workspace, so `generate_data.py` is reproducible with seed 2026 but cannot be verified as an unchanged copy. Replace it with the original Practical source if exact source identity is required.
-
 ## Executive Summary
 
 - The dataset contains **1,000 orders** from **January 1 through June 30, 2026**, with **0 missing values**.
